@@ -1,0 +1,2 @@
+# Maria Parache - Portfolio
+This is my personal portfolio website. It includes an introduction, an "About Me" section with a carousel, a contact form, and space for future projects. The design is fully responsive, so it looks good on desktop, tablet, and mobile devices. I built this site using HTML, CSS, and a bit of JavaScript for the image carousel. The main goal of this project was to demonstrate a solid understanding of front-end development, responsive design, and how to host a live site using GitHub Pages.
