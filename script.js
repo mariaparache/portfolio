@@ -17,3 +17,9 @@ const images = document.querySelectorAll('.carousel-img');
     current = (current - 1 + images.length) % images.length;
     showImage(current);
   }
+//Close mobile menu when any nav link is clicked
+  document.querySelectorAll("nav ul li a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.getElementById("check").checked = false;
+  });
+});
