@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Maria Parache - Portfolio</title>
+</head>
+
+<body>
+    <!--Header Section-->
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#Home">Maria Parache</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#projects" class="disabled-link">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Home Section-->
+    <section class="home" id="Home">
+        <div class="home__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Maria<br />an</span> aspiring Software Engineer
+                </h1>
+                <p class="description">
+                    Welcome to my portfolio! I'm currently studying Computer Science and
+                    working toward becoming a software engineer. I love bringing ideas to life
+                    through code, whether it’s building websites, learning new tools, or just figuring
+                    things out one line at a time, I’m always up for the challenge.
+                </p>
+                <div class="action__btns">
+                    <a href="https://www.linkedin.com/in/maria-parache/" target="_blank" aria-label="LinkedIn">
+                        <i class="ri-linkedin-box-fill" style="font-size: 24px; color: #ffb3c8;"></i>
+                    </a>
+                    <a href="https://github.com/mariaparache" target="_blank" aria-label="GitHub">
+                        <i class="ri-github-fill" style="font-size: 24px; color: #ffb3c8;"></i>
+                    </a>
+                    <div class="cv-button">
+                        <a href="Resume-MariaParache.pdf" class="download-btn">Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="image">
+                <img src="profile.jpg" alt="profile" />
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section class="about" id="About">
+        <div class="about-container">
+            <div class="about-left">
+                <h1>About Me</h1>
+                <div class="about-text">
+                    <p>I'm a computer Science student with a love for learning, creating, and solving problems through
+                        code.
+                        I’m currently on the path to becoming a software engineer, and I enjoy turning ideas into real,
+                        functional projects. Whether I’m working through a bug or building something from scratch, I’m
+                        always
+                        excited to keep growing and improving as a developer.<br>
+                        Outside of coding, I’m someone who genuinely loves puzzles, long walks, deep reads, sports,
+                        video games,
+                        traveling, and learning new
+                        things just for the fun of it. I’m naturally curious, always exploring, and always growing which
+                        I
+                        think is what makes tech such a good fit for me.
+                </div>
+            </div>
+
+            <div class="about-right">
+                <i class="ri-arrow-left-s-line arrow left" onclick="prevImage()"></i>
+                <img src="about1.jpg" class="carousel-img active" alt="Photo 1">
+                <img src="about2.jpg" class="carousel-img" alt="Photo 2">
+                <img src="about4.jpg" class="carousel-img" alt="Photo 3">
+                <img src="about5.jpg" class="carousel-img" alt="Photo 4">
+                <i class="ri-arrow-right-s-line arrow right" onclick="nextImage()"></i>
+            </div>
+    </section>
+    <!--Contact Section-->
+    <div id="contact-anchor"></div>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="contact-btn">
+        </form>
+    </section>
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="btn">
+            <a href="https://www.linkedin.com/in/maria-parache/" target="_blank" aria-label="LinkedIn">
+                <i class="ri-linkedin-box-fill" style="font-size: 24px; color: #ffb3c8;"></i>
+            </a>
+            <a href="https://github.com/mariaparache" target="_blank" aria-label="GitHub">
+                <i class="ri-github-fill" style="font-size: 24px; color: #ffb3c8;"></i>
+            </a>
+        </div>
+        <p class="copyright">
+            &copy;Maria Parache - All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
