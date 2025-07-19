@@ -349,9 +349,10 @@ section {
       top: 100%;
       background-color: var(--extra-light);
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       gap: 2rem;
+      padding-top: 140px;
       transition: left 0.3s ease;
   }
 
