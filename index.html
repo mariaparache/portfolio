@@ -22,8 +22,8 @@
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#projects" class="disabled-link">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Projects">Projects</a></li>
+               <!--<li><a href="#contact">Contact</a></li>--> 
             </ul>
         </div>
     </nav>
@@ -33,13 +33,12 @@
             <div class="content">
                 <p class="subtitle">HELLO</p>
                 <h1 class="title">
-                    I'm <span>Maria<br />an</span> aspiring Software Engineer
+                    I'm <span>Maria<br />a</span> Computer Science Graduate
                 </h1>
                 <p class="description">
-                    Welcome to my portfolio! I'm currently studying Computer Science and
-                    working toward becoming a software engineer. I love bringing ideas to life
-                    through code, whether it’s building websites, learning new tools, or just figuring
-                    things out one line at a time, I’m always up for the challenge.
+                    Welcome to my portfolio! I’m passionate about technology, problem-solving, and creating useful
+                    digital experiences. My background includes programming, web development, UI/UX design, and
+                    collaborative projects, and I’m excited to explore opportunities across the technology field.
                 </p>
                 <div class="action__btns">
                     <a href="https://www.linkedin.com/in/maria-parache/" target="_blank" aria-label="LinkedIn">
@@ -49,13 +48,13 @@
                         <i class="ri-github-fill" style="font-size: 24px; color: #ffb3c8;"></i>
                     </a>
                     <div class="cv-button">
-                        <a href="Resume-MariaParache.pdf" class="download-btn">Download CV</a>
+                        <a href="MariaParache-Resume.pdf" class="download-btn">Download Resume</a>
                     </div>
                 </div>
 
             </div>
             <div class="image">
-                <img src="profile.jpg" alt="profile" />
+                <img src="profile.jpeg" alt="profile" />
             </div>
         </div>
     </section>
@@ -65,31 +64,181 @@
             <div class="about-left">
                 <h1>About Me</h1>
                 <div class="about-text">
-                    <p>I'm a computer Science student with a love for learning, creating, and solving problems through
-                        code.
-                        I’m currently on the path to becoming a software engineer, and I enjoy turning ideas into real,
-                        functional projects. Whether I’m working through a bug or building something from scratch, I’m
-                        always
-                        excited to keep growing and improving as a developer.<br>
-                        Outside of coding, I’m someone who genuinely loves puzzles, long walks, deep reads, sports,
-                        video games,
-                        traveling, and learning new
-                        things just for the fun of it. I’m naturally curious, always exploring, and always growing which
-                        I
-                        think is what makes tech such a good fit for me.
+                    <p>I’m a Computer Science graduate who loves learning, creating, and figuring things out. I enjoy
+                        using technology to turn ideas into real, functional projects, and along the way I’ve gained
+                        experience with programming, web development, UI/UX design, and working collaboratively on
+                        technical projects. I’m always curious about new technologies and excited to explore where my
+                        skills can take me.
+                        <br><br />
+                        Outside of tech, you’ll usually find me taking pictures, admiring flowers, spending time at the
+                        beach, playing tennis, traveling, or getting lost in a good read. I also love puzzles, video
+                        games, and learning random new things just because they interest me. I’m naturally curious,
+                        creative, and always looking for something new to experience or learn.
                 </div>
             </div>
 
             <div class="about-right">
                 <i class="ri-arrow-left-s-line arrow left" onclick="prevImage()"></i>
-                <img src="about2.jpg" class="carousel-img active" alt="Photo 1">
-                <img src="about1.jpg" class="carousel-img" alt="Photo 2">
-                <img src="about4.jpg" class="carousel-img" alt="Photo 3">
-                <img src="about5.jpg" class="carousel-img" alt="Photo 4">
+                <img src="about3.jpeg" class="carousel-img active" alt="Photo 1">
+                <img src="about2.jpeg" class="carousel-img" alt="Photo 2">
+                <img src="about1.jpg" class="carousel-img" alt="Photo 3">
+                <img src="about4.jpeg" class="carousel-img" alt="Photo 4">
+                <img src="about5.jpg" class="carousel-img" alt="Photo 5">
+                <img src="about6.jpeg" class="carousel-img" alt="Photo 6">
+                <img src="about7.jpeg" class="carousel-img" alt="Photo 7">
                 <i class="ri-arrow-right-s-line arrow right" onclick="nextImage()"></i>
             </div>
     </section>
-    <!--Contact Section-->
+    <!-- Projects Section -->
+    <section class="projects" id="Projects">
+
+        <div class="projects-container">
+
+            <h1>Projects</h1>
+
+            <p class="projects-intro">
+                Here are some of the projects I've worked on, from collaborative
+                full-stack applications to hackathon projects and personal web development.
+            </p>
+
+
+            <div class="project-grid">
+
+
+                <!-- QuizApp -->
+                <div class="project-card">
+
+                    <img
+                        src="quizapp.jpg"
+                        alt="QuizApp project preview"
+                        class="project-img"
+                    >
+
+                    <div class="project-content">
+
+                        <h2>QuizApp</h2>
+
+                        <p>
+                            A full-stack trivia application built collaboratively
+                            with a team. I designed and developed the frontend
+                            interface using HTML and CSS while working with
+                            teammates responsible for JavaScript functionality
+                            and the Node.js, Express, and MongoDB backend.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/mariaparache/quizApp"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <i class="ri-github-fill"></i>
+                            View on GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- InternPing -->
+                <div class="project-card">
+
+                    <img
+                        src="internping.png"
+                        alt="InternPing project preview"
+                        class="project-img"
+                    >
+
+                    <div class="project-content">
+
+                        <h2>InternPing</h2>
+
+                        <p>
+                            An interactive internship discovery platform created
+                            during Hack Knight. I contributed to the UI/UX design,
+                            wireframing, branding, and frontend development while
+                            collaborating with my team to create an intuitive
+                            internship browsing experience.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                            <span>Canva</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/mariaparache/InternPing01"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <i class="ri-github-fill"></i>
+                            View on GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Portfolio -->
+                <div class="project-card">
+
+                    <img
+                        src="portfoliopic.jpg"
+                        alt="Personal portfolio preview"
+                        class="project-img"
+                    >
+
+                    <div class="project-content">
+
+                        <h2>Personal Portfolio</h2>
+
+                        <p>
+                            A responsive personal portfolio designed and developed
+                            from scratch to showcase my projects, technical skills,
+                            experience, and interests through a clean and
+                            user-friendly interface.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/mariaparache/portfolio"
+                            target="_blank"
+                            class="project-btn"
+                        >
+                            <i class="ri-github-fill"></i>
+                            View on GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Contact Section 
     <div id="contact-anchor"></div>
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
@@ -105,7 +254,8 @@
             <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="contact-btn">
         </form>
-    </section>
+    </section> -->
+
     <!--Footer Section-->
     <footer class="footer">
         <div class="btn">
